@@ -1,9 +1,13 @@
-numOver <- function(v, x, loop=true) {
-  n <- 0
-  for (val in v) {
-    if (val > x) {
-      n <- n + 1
+numOver <- function(v, x, loop=TRUE) {
+  if (loop) {
+    count <- 0
+    for (val in v) {
+      if (val > x) {
+        count <- count + 1
+      }
     }
+  } else {
+    count <- length(v[v > x])
   }
-  return(n)
+  return(count)
 }
