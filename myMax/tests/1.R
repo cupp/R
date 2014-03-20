@@ -4,7 +4,7 @@ test.examples <- function()
   checkEquals(myMax(c(17,5,6,2,4)), 17)
   checkEquals(myMax(c(8)), 8)
   checkEquals(myMax(c(-3.2,-2.1,-5.6)), -2.1)
-  checkEquals(mySum(c(-5,2,4)), 4)
+  checkEquals(myMax(c(-5,2,4)), 4)
 }
 
 test.deactivation <- function()
