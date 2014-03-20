@@ -1,7 +1,7 @@
 test.examples <- function()
 {
-  checkEquals(5, numOver(c(4,1,2,3,6),2),3)
-  checkEquals(5, numOver(c(4,1,2,3,6),2,false),3)
+  checkEquals(numOver(c(4,1,2,3,6),2),3)
+  checkEquals(numOver(c(4,1,2,3,6),2,false),3)
   checkEquals(numOver(c(17,5,6,2),8), 1)
   checkEquals(numOver(c(17,5,6,2),8,false), 1)
   checkEquals(numOver(NULL,3), 0)

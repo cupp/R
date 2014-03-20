@@ -5,6 +5,7 @@ test.examples <- function()
   checkEquals(myMin(c(8)), 8)
   checkEquals(myMin(c(-3.2,-2.1,-5.6)), -5.6)
   checkEquals(myMin(c(-5,2,4)), -5)
+  checkEquals(myMin(NULL), Inf)
 }
 
 test.deactivation <- function()

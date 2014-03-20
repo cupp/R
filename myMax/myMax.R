@@ -5,6 +5,5 @@
 
 
 myMax <- function(v) {
-  assert(length(v) > 0)
-  
+
 }

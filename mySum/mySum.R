@@ -4,5 +4,5 @@
 #   Use a loop. You are not allowed to use the sum function in your solution.
 
 mySum <- function(v) {
-  
+
 }
