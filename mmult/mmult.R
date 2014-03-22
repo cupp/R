@@ -1,6 +1,6 @@
 #   mmult.R
 #
-#   function mmult(m,n) returns the difference of matrices m and n.
+#   function mmult(m,n) returns the product of matrices m and n using matrix multiplication.
 #   Use loops to access individual elements of the matrices. Do not make row or column assignments.
 
 mmult <- function(m,n) {
